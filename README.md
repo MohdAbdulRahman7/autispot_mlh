@@ -1,1 +1,4 @@
 # autispot_mlh
+<hr>
+<br>
+In the contemporary world where Autism spectrum disorder (ASD) is a prevalent issue which affects one's ability to socialize, their actions, learning and cognitive abilities. ASD is coined as a neurological condition whose effects can be minimized upon appropriate conditioning at a preliminary stage. A gradual spike in the number of ASD reported cases unveiled a desperate need to utilize advances in technology to develop easily applied educational, behavioral and family therapies that help reduce its effects and support cognitive development. The designing of applications can further assist the autistic community by providing a cluster of features. As noted, it is evident that failing to detect autism in the span of 20-60 months of age, poses difficulties towards the treatment at a later stage.
