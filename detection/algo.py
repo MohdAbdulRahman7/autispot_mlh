@@ -33,12 +33,12 @@ from werkzeug.utils import secure_filename
 detection = Blueprint('detection', __name__, static_folder = "detection/static", template_folder = "templates")
 
 app = Flask(__name__)
-model1 = pickle.load(open('logistic_regression_model.pkl', 'rb'))
-model2 = pickle.load(open('decision_tree_model.pkl', 'rb'))
-model3 = pickle.load(open('KNN_model.pkl', 'rb'))
+model1 = pickle.load(open('model/logistic_regression_model.pkl', 'rb'))
+model2 = pickle.load(open('model/decision_tree_model.pkl', 'rb'))
+model3 = pickle.load(open('model/KNN_model.pkl', 'rb'))
 
 # Model saved with Keras model.save()
-MODEL_PATH ='model_vgg19.h5'
+MODEL_PATH ='model/model_vgg19.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
